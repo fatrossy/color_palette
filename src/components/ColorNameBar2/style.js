@@ -7,6 +7,6 @@ export const ColorNB = styled.div`
   width: 100px;
   height: 40px;
   margin: 0;
-  font-size: 12px;
+  font-size: 14px;
   color: #777A83;
 `

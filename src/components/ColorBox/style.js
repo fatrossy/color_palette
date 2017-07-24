@@ -6,8 +6,8 @@ export const ColorBo = styled.div`
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  margin: 10px;
-  width: 130px;
+  margin: 6%;
+  width: auto;
   height: 200px;
   border: 1px solid #C5C8D6;
 `

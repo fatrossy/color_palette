@@ -16,7 +16,7 @@ export const Wrap = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 1290px;
+  width: auto;
   height: auto;
   bottom: 20px;
   top: 20px;
