@@ -10,21 +10,20 @@ function ColorNameBar2 (props) {
 
   const parsingColors = (d) => {
     if (d[0] != '#'){
-      let m;
       if (d[1] != 'g') {
-      while ((m = nameRef.exec(d)) !== null) {
-
+        let m;
+        console.log(d)
+        while ((m = nameRef.exec(d)) !== null) {
           if (m.index === nameRef.lastIndex) {
               nameRef.lastIndex++;
           }
-
            m.forEach((match, groupIndex) => {
-              console.log(match)
+             console.log(match)
               return match
            });
-        console.log(m, m[1])
+        //console.log(m, m[1])
         return `${m[0]} ${m[1]}`
-      }}
+        }}
       return d;
     }
     else {
@@ -32,7 +31,7 @@ function ColorNameBar2 (props) {
     }
   }
 
-  console.log(parsingColors(data))
+  //console.log(parsingColors(data))
 
   return (
       <ColorNB>{parsingColors(data)}</ColorNB>

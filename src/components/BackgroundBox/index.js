@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import CatagoryBox1 from '../CatagoryBox1';
-import { BackgroundBox } from './style';
+import { BgBox } from './style';
 
-function BackgroundBox3 (props) {
+function BackgroundBox (props) {
+  const {bcolor} = props;
   const {data} = props;
   const cata = data.map((d,i) => <CatagoryBox1 data={d} key={i} />);
   return (
-      <BackgroundBox>
+      <BgBox bcolor={bcolor}>
         {cata}
-      </BackgroundBox>
+      </BgBox>
   );
 };
 
-export default BackgroundBox3;
+export default BackgroundBox;

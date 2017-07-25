@@ -28,12 +28,12 @@ const colors = [{
 		"toolbarBg" : '#1E1E2B',
 		"tbUnsele" : chroma(curColor).alpha(.3).css(),
 		"circBorder" : chroma(curColor).alpha(.25).css(),
-		"circ" : 'radial-gradient(50% 100%, rgba(0,251,251,0.0) 50%, rgba(156,156,156,0.25) 100%)',
+		"circ" : 'radial-gradient(50% 100%, rgba(0,251,251,0) 50%, rgba(156,156,156,0.25) 100%)',
 		"bar": '#5A5B62',
 		"actuNum": curColor,
 		"numPy": '#A4A5AA',
 		"barStar": '#A7A7AA',
-		"shadow": 'linear-gradient(0deg, rgba(0,0,0,0.0), rgba(0,0,0,0.7));',
+		"shadow": 'linear-gradient(0deg, rgba(0,0,0,0), rgba(0,0,0,0.7));',
 	}},
 
 	{"kpi" : {

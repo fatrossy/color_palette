@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
-export const BackgroundBox = styled.div`
+export const BgBox = styled.div`
   position: relative;
   top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  width: 32%;
+  width: 33.5%;
+  margin: 0;
   height: auto;
-  background-color: black;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: ${ props => props.bcolor } ;
 `

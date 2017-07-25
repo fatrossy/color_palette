@@ -8,6 +8,7 @@ function CatagoryBox1 (props) {
   const value1 = data[key1];
   const colorArr = Object.entries(value1);
   const clBoxNum = colorArr.map((d,i) => <ColorBox data={d} key={i}/>);
+  
   return (
       <Catag1>
         {clBoxNum}
